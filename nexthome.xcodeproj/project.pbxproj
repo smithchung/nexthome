@@ -497,6 +497,7 @@
 				51C04D361C97ED0100409535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51C04D371C97ED0100409535 /* Build configuration list for PBXNativeTarget "nexthomeTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				51C04D391C97ED0100409535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51C04D3A1C97ED0100409535 /* Build configuration list for PBXNativeTarget "nexthomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +515,7 @@
 				51C04D3C1C97ED0100409535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
