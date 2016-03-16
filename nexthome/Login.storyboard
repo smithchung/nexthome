@@ -17,19 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tu-6c-QEl">
-                                <rect key="frame" x="219" y="289" width="163" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MKR-SO-AjE">
+                                <rect key="frame" x="191" y="233" width="218" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAN-Fg-xfh">
+                                <rect key="frame" x="191" y="285" width="218" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4Tu-6c-QEl" firstAttribute="centerY" secondItem="Zd3-VM-gkE" secondAttribute="centerY" id="2pt-Hg-y2r"/>
-                            <constraint firstItem="4Tu-6c-QEl" firstAttribute="centerX" secondItem="Zd3-VM-gkE" secondAttribute="centerX" id="DOP-fM-JIa"/>
+                            <constraint firstItem="WAN-Fg-xfh" firstAttribute="centerX" secondItem="Zd3-VM-gkE" secondAttribute="centerX" id="9nq-1K-aKd"/>
+                            <constraint firstItem="MKR-SO-AjE" firstAttribute="centerX" secondItem="Zd3-VM-gkE" secondAttribute="centerX" id="WX5-cP-3Jy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="WAN-Fg-xfh" id="pc2-8k-XLq"/>
+                        <outlet property="usernameTextField" destination="MKR-SO-AjE" id="CEV-wF-qaZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e92-jI-za7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
