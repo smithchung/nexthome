@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class LoginViewController: UIViewController {
     
@@ -31,5 +32,13 @@ class LoginViewController: UIViewController {
         passwordIconImage.frame.size.height = 30
         passwordTextField.leftViewMode = UITextFieldViewMode.Always
         passwordTextField.leftView = passwordIconImage
+        
+        
+        //Adding object to parse
+//        let testObject = PFObject(className: "TestObject")
+//        testObject["foo"] = "bar"
+//        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+//            print("Object has been saved.")
+//        }
     }
 }
