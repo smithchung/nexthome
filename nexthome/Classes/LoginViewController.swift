@@ -40,5 +40,13 @@ class LoginViewController: UIViewController {
 //        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
 //            print("Object has been saved.")
 //        }
+        
+        let testObject2 = PFObject(className: "User")
+        testObject2["username"] = "test"
+        testObject2["password"] = "test"
+        testObject2.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError?) -> Void in
+            print("saved.")
+        }
     }
 }
