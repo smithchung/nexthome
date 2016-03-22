@@ -27,6 +27,7 @@
 		51FA714B1C9E63E2000C9B3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FA714A1C9E63E2000C9B3A /* SystemConfiguration.framework */; };
 		51FA714D1C9E63EC000C9B3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FA714C1C9E63EC000C9B3A /* libz.tbd */; };
 		51FA714F1C9E63F2000C9B3A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FA714E1C9E63F2000C9B3A /* libsqlite3.tbd */; };
+		E3575F211C9F2BD500FEA469 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3575F201C9F2BD500FEA469 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		51FA714A1C9E63E2000C9B3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		51FA714C1C9E63EC000C9B3A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		51FA714E1C9E63F2000C9B3A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E3575F201C9F2BD500FEA469 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Classes/SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				51C04D3D1C97F09300409535 /* LoginViewController.swift */,
+				E3575F201C9F2BD500FEA469 /* SignUpViewController.swift */,
 				51C04D401C97F0EC00409535 /* Login.storyboard */,
 			);
 			name = Login;
@@ -341,6 +344,7 @@
 			files = (
 				51C04D3E1C97F09300409535 /* LoginViewController.swift in Sources */,
 				51C04D151C97ED0100409535 /* nexthome.xcdatamodeld in Sources */,
+				E3575F211C9F2BD500FEA469 /* SignUpViewController.swift in Sources */,
 				51C04D0D1C97ED0100409535 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
